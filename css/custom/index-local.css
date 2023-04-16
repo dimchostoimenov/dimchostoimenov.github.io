@@ -40,6 +40,24 @@
     unicode-range: U+0-10FFFF;
 }
 
+@font-face {
+    font-family: 'LogoFontCharmsReg';
+    src: url('../fonts/Charm-Regular.ttf')  format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.LogoFontClassAttachment{
+    font-family: 'LogoFontCharmsReg', sans-serif;
+    color:#FFF !important;
+}
+
+.dimcho{
+    top:-9vw;
+}
+
+
 /* ==================================================================
 2.0 Custom Styles
 ================================================================== */
